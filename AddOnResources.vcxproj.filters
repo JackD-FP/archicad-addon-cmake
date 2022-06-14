@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\CMakeFiles\7520ca157461190a4c3c9e23ec08196d\AddOnResources.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\CMakeFiles\0730974c8eb8afcfb074fd2efed91ca9\AddOnResources.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Sources\AddOnResources\RFIX.win\AddOnMain.rc2">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Sources\AddOnResources\RFIX\AddOnFix.grc">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Sources\AddOnResources\RINT\AddOn.grc">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Sources\AddOnResources\Tools\CompileResources.py">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Sources\AddOnResources\RFIX\Images\AddOnIcon_18x18.svg">
+      <Filter>Images</Filter>
+    </None>
+    <None Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\CMakeFiles\AddOnResources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{35926405-94EE-3CD6-958F-2FD343D344EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{0305CA18-01C9-3080-AD0C-317CF48DC6F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{2334BA31-06C9-339B-A279-2FEEBFEEAEFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

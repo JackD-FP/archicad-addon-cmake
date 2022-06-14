@@ -1,0 +1,3 @@
+C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/CMakeFiles/AddOnResources.dir
+C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/CMakeFiles/AddOn.dir
+C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/CMakeFiles/ALL_BUILD.dir

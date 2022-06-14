@@ -1,0 +1,4 @@
+﻿  AddOnMain.cpp
+ACAP_STATD.lib(ACAPlib_.obj) : warning LNK4099: PDB 'API_c.pdb' was not found with 'ACAP_STATD.lib(ACAPlib_.obj)' or at 'C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Debug\API_c.pdb'; linking object as if no debug info
+     Creating library C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/Debug/ExampleAddOn.lib and object C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/Debug/ExampleAddOn.exp
+  AddOn.vcxproj -> C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Debug\ExampleAddOn.apx

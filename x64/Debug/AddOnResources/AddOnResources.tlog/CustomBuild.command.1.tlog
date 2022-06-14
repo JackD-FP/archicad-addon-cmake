@@ -1,0 +1,22 @@
+^C:\USERS\JACKD\ARCHICAD  DEV\TESTADDON\ARCHICAD-ADDON-CMAKE\CMAKEFILES\7520CA157461190A4C3C9E23EC08196D\ADDONRESOURCES.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/ResourceObjects"
+if %errorlevel% neq 0 goto :cmEnd
+python "C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/Sources/AddOnResources/Tools/CompileResources.py" INT "C:/Program Files/GRAPHISOFT/API Development Kit 25.3002" "C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/Sources/AddOn" "C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/Sources/AddOnResources" "C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/ResourceObjects" "C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/ResourceObjects/ExampleAddOn.res"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/jackd/Archicad  Dev/testAddon/archicad-addon-cmake/ResourceObjects/AddOnResources.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JACKD\ARCHICAD  DEV\TESTADDON\ARCHICAD-ADDON-CMAKE\CMAKEFILES\0730974C8EB8AFCFB074FD2EFED91CA9\ADDONRESOURCES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

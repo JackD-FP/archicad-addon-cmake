@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Sources\AddOn\AddOnMain.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Sources\AddOn\APIEnvir.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jackd\Archicad  Dev\testAddon\archicad-addon-cmake\Sources\AddOn\ResourceIds.hpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{1BE1CE23-960C-3966-AA58-BB2CA2EB9041}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

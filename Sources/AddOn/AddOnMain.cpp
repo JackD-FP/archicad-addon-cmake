@@ -1,6 +1,6 @@
 #include "APIEnvir.h"
 #include "ACAPinc.h"
-
+#include "StringConversion.hpp"
 #include "ResourceIds.hpp"
 #include "DGModule.hpp"
 
@@ -65,16 +65,31 @@ private:
 	DG::Separator	separator;
 };
 
+static void CountNumberOfWalls()
+{
+	GS::Array<API_Guid> wallGuids;
+	GSErrCode err = ACAPI_Element_GetElemList(API_WallID, &wallGuids);
+	if (err != NoError) {
+		return;
+	}
+
+	USize wallCount = wallGuids.GetSize();
+	DG::InformationAlert(GS::ValueToUniString(wallCount), "", "OK");
+}
+
 static GSErrCode MenuCommandHandler (const API_MenuParams *menuParams)
 {
 	switch (menuParams->menuItemRef.menuResID) {
 		case AddOnMenuID:
 			switch (menuParams->menuItemRef.itemIndex) {
-				case AddOnCommandID:
-					{
-						ExampleDialog dialog;
-						dialog.Invoke ();
-					}
+				//case AddOnCommandID:
+				//	{
+				//		ExampleDialog dialog;
+				//		dialog.Invoke ();
+				//	}
+				//	break;
+				case 1:
+					CountNumberOfWalls();
 					break;
 			}
 			break;
